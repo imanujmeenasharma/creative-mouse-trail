@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
     easing: "cubic-bezier(0.87, 0, 0.13, 1)",
   };
 
-  const trailImageCount = 20;
+  const trailImageCount = 5;
 
   const images = Array.from(
     { length: trailImageCount },
-    (_, i) => `/img${i + 1}.jpeg`
+    (_, i) => `/img${i + 1}.avif`
   );
 
   const trailContainer = document.querySelector(".trail-container");
